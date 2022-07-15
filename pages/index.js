@@ -6,6 +6,10 @@ import Landing from '../components/Landing'
 export default function Home() {
   return (
     <div>
+      <Head>
+        <title>Bridgeworld Helper</title>
+        <link rel="shortcut icon" href="/favicon.ico" />
+      </Head>
       <Landing />
     </div>
   )

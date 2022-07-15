@@ -4,10 +4,15 @@ export default function Landing() {
     const tweetLink = `https://twitter.com/intent/tweet?text=Can%E2%80%99t%20wait%20to%20use%20%40bridgeworldhelp%20tools%20to%20maximize%20profit%20in%20Bridgeworld%21%20https%3A%2F%2Fbridgeworldhelper.com`
     return (
         <div className="relative">
-            <header className="fixed top-0 w-full h-[60px] px-[12px] flex flex-row shadow-md md:px-[20px] bg-white z-10">
+            <header className="fixed top-0 w-full h-[60px] px-[12px] flex flex-row justify-between shadow-md md:px-[20px] bg-white z-10">
                 <div className="relative h-full flex flex-row gap-x-2 py-[19px] items-center">
                     <img className="inline-block h-full" src="images/Dragon.svg" />
                     <h1 className="inline-block font-sans font-extrabold text-xl text-[#101827] whitespace-nowrap ">Bridgeworld Helper</h1>
+                </div>
+                <div className="relative h-full flex flex-row gap-x-2 py-[20px] items-center">
+                    <a className="h-full" target="_blank" rel="noopener noreferrer" href="https://twitter.com/bridgeworldhelp">
+                        <img className="relative block h-full" src="images/twitter.png" />
+                    </a>
                 </div>
             </header>
             <main className="relative pt-[70px] px-[25px]">
