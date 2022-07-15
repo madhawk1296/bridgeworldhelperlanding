@@ -10,7 +10,8 @@ export default function Landing() {
                     <h1 className="inline-block font-sans font-extrabold text-xl text-[#101827] whitespace-nowrap ">Bridgeworld Helper</h1>
                 </div>
             </header>
-            <main className="relative pt-[150px] px-[25px]">
+            <main className="relative pt-[70px] px-[25px]">
+                <img className="w-full px-[60px] md:max-w-[500px] m-auto" src="images/spreadsheets.svg" />
                 <h1 className="relative font-sans font-bold text-[36px] text-gray-700 text-left pb-[20px] md:text-center z-0">Take your <span className="text-purple-500">$magic</span> <span className="text-[#DC2626]">Hoarding</span> to the Next Level.</h1>
                 <h1 className="relative font-sans font-semibold text-xl text-gray-500 text-left pb-[45px] md:text-center z-0">Tools to help you calculate costs and maximize profit when playing <span className="text-purple-500">Bridgeworld</span>.</h1>
                 <a href={tweetLink}>
