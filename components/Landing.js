@@ -19,10 +19,9 @@ export default function Landing() {
                 <img className="w-full px-[60px] md:max-w-[500px] m-auto" src="images/spreadsheets.svg" />
                 <h1 className="relative font-sans font-bold text-[36px] text-gray-700 text-left pb-[20px] md:text-center z-0">Take your <span className="text-purple-500">$magic</span> <span className="text-[#DC2626]">Hoarding</span> to the Next Level.</h1>
                 <h1 className="relative font-sans font-semibold text-xl text-gray-500 text-left pb-[45px] md:text-center z-0">Tools to help you calculate costs and maximize profit when playing <span className="text-purple-500">Bridgeworld</span>.</h1>
-                <a href={tweetLink}>
-                    <button className="relative h-[40px] w-fit py-[13px] px-[10px] text-white bg-[#1DA1F2] rounded-2xl flex flex-row gap-x-2 items-center m-auto">
-                        <h1 className="whitespace-nowrap inline-block">Spread the Word</h1>
-                        <img className="inline-block h-full" src="images/twitterWhite.png" />
+                <a href="https://app.bridgeworldhelper.com">
+                    <button className="relative h-[40px] w-fit py-[13px] px-[10px] text-white bg-[#DC2626] rounded-2xl flex flex-row gap-x-2 items-center m-auto">
+                        <h1 className="whitespace-nowrap inline-block">Use App</h1>
                     </button>
                 </a>
             </main>
